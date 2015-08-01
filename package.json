@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/quarterto/meta-stream",
   "dependencies": {
+    "deep-extend": "^0.4.0",
     "highland": "quarterto/highland#extensibility"
   },
   "devDependencies": {

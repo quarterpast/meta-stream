@@ -1,5 +1,5 @@
 var σ = require('highland');
-var extend = require('util')._extend;
+var extend = require('deep-extend');
 
 var MetaStream = σ.use({
 	getInitialMeta() {

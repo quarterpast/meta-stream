@@ -32,5 +32,17 @@ exports['MetaStream'] = {
 		});
 
 		expect(S().meta().foo).to.equal('bar');
+	},
+
+	'should merge meta deeply' () {
+		var s = MetaStream();
+		s.meta({foo: {bar: 'baz'}});
+		s.meta({foo: {quux: 'frob'}});
+		expect(s.meta()).to.deep.equal({
+			foo: {
+				bar: 'baz',
+				quux: 'frob'
+			}
+		});
 	}
 };
