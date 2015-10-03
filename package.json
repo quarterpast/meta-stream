@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/quarterto/meta-stream",
   "dependencies": {
-    "deep-extend": "^0.4.0",
+    "deep-extend": "0.4.0",
     "highland": "quarterto/highland#extensibility"
   },
   "devDependencies": {
-    "babel": "^5.8.20",
-    "chai": "^3.2.0",
-    "dirty-chai": "^1.2.2",
-    "mocha": "^2.2.5"
+    "babel": "5.8.23",
+    "chai": "3.3.0",
+    "dirty-chai": "1.2.2",
+    "mocha": "2.3.3"
   }
 }
