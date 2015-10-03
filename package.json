@@ -1,15 +1,15 @@
 {
   "name": "@quarterto/meta-stream",
-  "version": "1.0.0",
   "description": "Highland stream with a sidechannel metadata object",
   "main": "lib",
   "scripts": {
     "test": "make test",
-    "prepublish": "make test"
+    "prepublish": "make test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/quarterto/meta-stream.git"
+    "url": "https://github.com/quarterto/meta-stream.git"
   },
   "keywords": [
     "stream",
@@ -30,6 +30,7 @@
     "babel": "^5.8.20",
     "chai": "^3.2.0",
     "dirty-chai": "^1.2.2",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "semantic-release": "^4.3.5"
   }
 }
