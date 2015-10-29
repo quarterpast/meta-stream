@@ -27,7 +27,7 @@
     "highland": "quarterto/highland#extensibility"
   },
   "devDependencies": {
-    "babel": "^5.8.20",
+    "babel": "^6.0.0",
     "chai": "^3.2.0",
     "dirty-chai": "^1.2.2",
     "mocha": "^2.2.5",
